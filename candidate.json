@@ -1,0 +1,36 @@
+{
+  "available": [
+    {
+      "name": "Adam",
+      "spouse": "Kathleen"
+    },
+    {
+      "name": "Ann",
+      "spouse": "Terry"
+    },
+    {
+      "name": "Anna",
+      "spouse": "Matt"
+    },
+    {
+      "name": "Caro",
+      "spouse": "Pat"
+    },
+    {
+      "name": "Kathleen",
+      "spouse": "Adam"
+    },
+    {
+      "name": "Matt",
+      "spouse": "Anna"
+    },
+    {
+      "name":  "Pat",
+      "spouse": "Caro"
+    },
+    {
+      "name": "Terry",
+      "spouse": "Ann"
+    }
+  ]
+}
