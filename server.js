@@ -17,6 +17,12 @@ app.get('/', function (req, res) {
        res.render('index')
     });
 
+app.get('/santa', function (req, res) {
+    var userdata = fs.readFileSync('records.json');
+    userRecords = JSON.parse(userdata);
+    res.send(userRecords);
+})
+
 app.post('/', function (req, res) {
 
     var name = req.body.item;
